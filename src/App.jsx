@@ -7,12 +7,12 @@ import Profile from './components/Profile'
 
 const App = () => {
   return (
-    <div>
+    <div className='font-work-sans'>
       <Navbar />
-      <Hero/>
-      <Service/>
-      <About/>
-      <Profile/>
+      <Hero />
+      <Service />
+      <About />
+      <Profile />
     </div>
   )
 }
