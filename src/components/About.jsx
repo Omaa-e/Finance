@@ -32,7 +32,7 @@ function About()  {
     <div className="w-full p-5">
         {about.map((about,index) =>{
             return (
-                <div key={about.id} className='bg-[#d2f8dc] rounded-2xl py-10 mb-10 grid md:grid-col'>
+                <div key={about.id} className='bg-[#d2f8dc] rounded-2xl py-10 mb-10 '>
                     <div className='flex flex-col md:flex-row'>
                         <div className='md:w-1/2 flex justify-center'>
                             <img className='md:max-w-[400px]' src={about.image} alt="tax" />

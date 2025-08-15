@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import Service from './components/Service'
 import About from './components/About'
 import Profile from './components/Profile'
+import Background from './components/Background'
+import Smart from './components/Smart'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Service />
       <About />
       <Profile />
+      <Background />
+      <Smart/>
     </div>
   )
 }
