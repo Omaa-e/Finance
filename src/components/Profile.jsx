@@ -8,7 +8,7 @@ const Profile = () => {
                 <p className='text-6xl text-[#2e4f21] tracking-tighter'>Hear From Our Happy Clients</p>
             </div>
             <div className='flex flex-col md:flex-row justify-center md:items-start m-8 mt-19'>
-                <div className='flex flex-row px-[-5rem] md:w-[40%]  md:flex-col   '>
+                <div className='flex flex-row px-[-5rem] md:w-[45%]  md:flex-col mr-8  '>
                     <div className=' py-8 px-5 bg-[#2E4F21] rounded-lg text-[#FFFFFF]'>
                         <p className='text-xl'>Graphic Designer</p>
                         <p className=' text-[#7D9276] mt-2 text-sm'>Ontario, Canada</p>
