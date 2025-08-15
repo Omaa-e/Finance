@@ -3,7 +3,7 @@ import React from 'react'
 const Profile = () => {
     return (
         <div className='w-full p-10'>
-            <div className='w-full mx-auto flex flex-col  m-10'>
+            <div className='w-full mx-auto flex flex-col m-10'>
                 <div className=' w-full mx-auto text-center max-w-md md:max-w-3xl lg:max-w-4xl '>
                     <p className='text-6xl text-[#2e4f21] tracking-tighter'>Hear From Our Happy Clients</p>
                 </div>
