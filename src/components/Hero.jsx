@@ -4,7 +4,7 @@ import bgImg from '../assets/FinanceWorld.avif'
 const Hero = () => {
   return (
     <div className='w-full h-auto flex bg-[#a0f1bd] rounded-b-xl'>
-        <div className=' flex flex-col md:flex-row justify-between w-full my-16 mx-8 '>
+        <div className=' flex flex-col md:flex-row justify-between w-full my-36 mx-8 '>
             <div className='order-1 flex md:order-2 '>
                <img src={bgImg} className='w-full md:max-w-xs'/>
             </div>
