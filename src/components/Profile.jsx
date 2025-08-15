@@ -13,7 +13,7 @@ const Profile = () => {
                         <p className='text-xl'>Graphic Designer</p>
                         <p className=' text-[#7D9276] mt-2 text-sm'>Ontario, Canada</p>
                     </div>
-                     <div className=' py-8 px-4 rounded-lg text-[#2e4f21]'>
+                     <div className=' py-8 px-3 rounded-lg text-[#2e4f21]'>
                         <p className='text-xl'>Commercial Photographer</p>
                         <p className=' text-[#7D9276] mt-2 text-sm'>Ontario, Canada</p>
                     </div>
