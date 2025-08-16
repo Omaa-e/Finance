@@ -8,7 +8,7 @@ const Smart = () => {
             <h2>Smart Finance for everyone</h2>
             
         </div>
-         <div className='grid lg:grid-cols-3 gap-y-16  '>
+         <div className='grid grid-cols-3 lg:grid-cols-1 gap-y-16  '>
                     <div className=' py-5 text-[#2e4f21]'>
                         <p className='text-xl'>Graphic Designer</p>
                         <p className='mt-2 text-sm'>Ontario, Canada</p>
