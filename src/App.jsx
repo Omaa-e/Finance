@@ -6,6 +6,7 @@ import About from './components/About'
 import Profile from './components/Profile'
 import Background from './components/Background'
 import Smart from './components/Smart'
+import Custom from './components/Custom'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Profile />
       <Background />
       <Smart/>
+      <Custom/>
     </div>
   )
 }
