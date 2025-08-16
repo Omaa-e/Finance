@@ -3,12 +3,12 @@ import Img from '../assets/hr.webp'
 
 const Profile = () => {
     return (
-        <div className='w-full p-10'>
-            <div className='w-full mx-auto flex flex-col m-10 '>
+        <div className='w-full p-15'>
+            <div className='w-full mx-auto flex flex-col m-10 md:px-20'>
                 <div className=' w-full mx-auto text-center max-w-md md:max-w-3xl lg:max-w-4xl '>
                     <p className='text-6xl text-[#2e4f21] tracking-tighter'>Hear From Our Happy Clients</p>
                 </div>
-                <div className="flex flex-col md:flex-row justify-center md:items-start  mt-16 ">
+                <div className="flex flex-col md:flex-row justify-center md:items-start  mt-16 w-full ">
                     <div className="md:w-[300px]  md:border-r-[1px] border-[#7D9276]">
                         <div className="flex flex-row justify-between px-auto md:flex-col md:mr-8">
                             <div className="py-3 px-2 md:py-8 md:px-5 bg-[#2E4F21] rounded-lg text-[#FFFFFF] ">
@@ -33,7 +33,7 @@ const Profile = () => {
                         </div>
                     </div>
 
-                    <div className="flex-1 flex-col justify-center-safe">
+                    <div className="flex-1 flex-col md:m-10 mt-0">
                         <div className="mx-auto lg:px-10 mt-5 ">
                             <p className='text-3xl text-[#2e4f21]'>
                                 "Managing my taxes as a freelancer used to be overwhelming, but Noble Finance made it effortless.”
