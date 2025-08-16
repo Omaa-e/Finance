@@ -7,6 +7,7 @@ import Profile from './components/Profile'
 import Background from './components/Background'
 import Smart from './components/Smart'
 import Custom from './components/Custom'
+import Believe from './components/Believe'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Background />
       <Smart/>
       <Custom/>
+      <Believe/>
     </div>
   )
 }
