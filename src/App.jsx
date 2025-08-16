@@ -8,6 +8,7 @@ import Background from './components/Background'
 import Smart from './components/Smart'
 import Custom from './components/Custom'
 import Believe from './components/Believe'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Smart/>
       <Custom/>
       <Believe/>
+      <Footer/>
     </div>
   )
 }
