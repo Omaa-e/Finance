@@ -18,7 +18,7 @@ const Footer = () => {
             <div className='text-white py-5 md:py-10 text-sm md:w-1/2'>
                 <p>Financial Clarity You Can Trust <br className='mx-auto '/>Trusted financial guidance for every stage of life and business since 1987</p>
             </div>
-            <div className='text-white py-5 md:pt-15 pl-8 text-sm'>
+            <div className='text-white py-5 md:pt-15 md:pl-8 text-sm'>
                 <p className=''>© 2025 All Rights Reserved</p>
             </div>
         </div>
