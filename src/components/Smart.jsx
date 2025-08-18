@@ -27,7 +27,7 @@ function Smart() {
        
         <div className=' flex flex-col  justify-center '>
             <div className='flex flex-col md:flex-row justify-center w-full'>
-                <h2 className='text-3xl'>Smart Finance for everyone</h2>
+                <h2 className='text-3xl text-[#2e4f21]'>Smart Finance for everyone</h2>
                  <div className='text-[#2e4f21]  '>
                     <p className='mx-auto '>At Noble Finance, we believe that financial confidence should be accessible to everyone—whether you’re a solo entrepreneur, managing a growing family, or running a small business.</p>
                  </div>
