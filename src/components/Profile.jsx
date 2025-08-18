@@ -18,13 +18,13 @@ const Profile = () => {
                                 </div>
 
                             </div>
-                            <div className="py-3 px-14 md:py-8 md:px-3 rounded-lg text-[#2e4f21]">
+                            <div className="py-3 px-10 md:py-8 md:px-3 rounded-lg text-[#2e4f21]">
                                 <div className='border-t-[1px] border-[#7D9276] '>
                                     <p className="text-xs w-1/2 md:w-full md:text-xl mt-1 ">Commercial Photographer</p>
                                     <p className="text-[#7D9276] mt-2 text-xs md:text-sm">Ontario, Canada</p>
                                 </div>
                             </div>
-                            <div className="py-3 px-15 md:py-8 md:px-5 rounded-xl text-[#2e4f21]">
+                            <div className="py-3 px-6 md:py-8 md:px-5 rounded-xl text-[#2e4f21]">
                                 <div className='border-t-[1px] border-[#7D9276]'>
                                     <p className="text-xs md:text-xl mt-1">Stylist</p>
                                     <p className="text-[#7D9276] mt-2 text-xs md:text-sm">Austin Texas</p>
