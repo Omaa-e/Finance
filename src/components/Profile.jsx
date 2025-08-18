@@ -11,20 +11,20 @@ const Profile = () => {
                 <div className="flex flex-col md:flex-row justify-center md:items-start  mt-16 w-full ">
                     <div className="md:w-[300px]  md:border-r-[1px] border-[#7D9276]">
                         <div className="flex flex-row justify-between px-auto md:flex-col md:mr-2">
-                            <div className="py-3 px-15 md:py-8 md:px-5 bg-[#2E4F21] rounded-lg text-[#FFFFFF] ">
+                            <div className="py-3 px-8 md:py-8 md:px-5 bg-[#2E4F21] rounded-lg text-[#FFFFFF] ">
                                 <div className='border-t-[1px] border-[#7D9276] w-full'>
                                     <p className="text-xs md:text-xl mt-1  w-1/2 md:w-full">Graphic Designer</p>
                                     <p className="text-[#7D9276] mt-2 text-xs md:text-sm">Ontario, Canada</p>
                                 </div>
 
                             </div>
-                            <div className="py-3 px-10 md:py-8 md:px-3 rounded-lg text-[#2e4f21]">
+                            <div className="py-3 px-4 md:py-8 md:px-3 rounded-lg text-[#2e4f21]">
                                 <div className='border-t-[1px] border-[#7D9276] '>
                                     <p className="text-xs w-1/2 md:w-full md:text-xl mt-1 ">Commercial Photographer</p>
                                     <p className="text-[#7D9276] mt-2 text-xs md:text-sm">Ontario, Canada</p>
                                 </div>
                             </div>
-                            <div className="py-3 px-6 md:py-8 md:px-5 rounded-xl text-[#2e4f21]">
+                            <div className="py-3 px-2 md:py-8 md:px-5 rounded-xl text-[#2e4f21]">
                                 <div className='border-t-[1px] border-[#7D9276]'>
                                     <p className="text-xs md:text-xl mt-1">Stylist</p>
                                     <p className="text-[#7D9276] mt-2 text-xs md:text-sm">Austin Texas</p>
