@@ -8,11 +8,17 @@ const Navbar = () => {
           <h1 className='text-[#2e4f21] text-lg'>Noble Finances</h1>
         </div>
         <div className='flex justify-between items-center gap-5 text-white pl-2'>
-                    <a href="#" className='text-green-950 text-xs'>Services</a>
-                    <div className=' bg-[#2e4f21] transition transform ease-in cursor-pointer hover:bg-white text-sm hover:text-green-800 rounded-3xl px-3 py-2'>
-                        <span className='block md:hidden'>Book</span>
-                        <p className='hidden md:block text-xs font-medium'>Book an appointment</p>
-                    </div>
+          <Link to="/services">
+           <a href="#" className='text-green-950 text-xs'>Services</a>
+           </Link>
+           
+            <div className=' bg-[#2e4f21] transition transform ease-in cursor-pointer hover:bg-white text-sm hover:text-green-800 rounded-3xl px-3 py-2'>
+              <Link to="/book">
+                <span className='block md:hidden'>Book</span>
+                <p className='hidden md:block text-xs font-medium'>Book an appointment</p>
+              </Link>
+
+            </div>
           </div>
       </div>
       
