@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -10,21 +10,41 @@ import Smart from './components/Smart'
 import Custom from './components/Custom'
 import Believe from './components/Believe'
 import Footer from './components/Footer'
+import Book from './Pages/Book'
+import ServicesPage from './Pages/ServicesPage'
 
 const App = () => {
   return (
-    <div className='font-work-sans'>
-      <Navbar />
-      <Hero />
-      <Service />
-      <About />
-      <Profile />
-      <Background />
-      <Smart/>
-      <Custom/>
-      <Believe/>
-      <Footer/>
-    </div>
+      <Router>
+        <div className='font-work-sans'>
+          <Navbar />
+          <Routes>
+            {/* Navbar page route */}
+            <Route path="/" 
+            element={<>
+            <Hero />
+            <Service />
+            <About />
+            <Profile />
+            <Background />
+            <Smart/>
+            <Custom/>
+            <Believe/>
+            <Footer/>
+              </>
+            } 
+            />
+          
+          {/* Services Page */}
+          <Route path="/services" element={<ServicesPage />} />
+
+          {/* Book Page */}
+          <Route path="/book" element={<Book/>} />
+        </Routes>
+        </div>
+      </Router>
+      
+    
   )
 }
 

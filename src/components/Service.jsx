@@ -5,6 +5,7 @@ const Service = () => {
         <div className='w-full my-15'>
             <div className='flex flex-col mx-auto text-center'>
                 <div>
+                    
                     <p className='text-[#2e4f21] mb-5'>Services</p>
                 </div>
                 <div className='text-center text-[#2e4f21] space-y-5'>
