@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom"; 
 
 const Believe = () => {
   return (
@@ -10,7 +11,9 @@ const Believe = () => {
 
 
         <div className='mt-25'>
-          <button className='bg-[#2e4f21] text-white hover:bg-green-300 hover:text-green-900 rounded-full py-5 px-7 transition cursor-pointer'>Connect with or experts</button>
+          <Link to="/book">
+            <button className='bg-[#2e4f21] text-white hover:bg-green-300 hover:text-green-900 rounded-full py-5 px-7 transition cursor-pointer'>Connect with our experts</button>
+          </Link>
         </div>
 
       </div>

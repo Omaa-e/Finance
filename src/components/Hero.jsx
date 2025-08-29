@@ -1,5 +1,6 @@
 import React from 'react'
 import bgImg from '../assets/FinanceWorld.avif'
+import { Link } from "react-router-dom"; 
 
 const Hero = () => {
   return (
@@ -12,7 +13,9 @@ const Hero = () => {
                 <h2 className='text-3xl text-[#2e4f21] md:text-5xl mb-4 font-normal tracking-tighter'>Financial Clarity You Can Trust</h2>
                 <p className='mb-6 md:w-4/5 lg:w-1/2 text-[#2e4f21]'>Trusted financial guidance for every stage of life and business since 1987</p>
                 <div>
-                    <a href="#" className='bg-[#2e4f21] text-white text-xs hover:bg-green-300 hover:text-green-900 rounded-3xl py-3 px-3 transition'>Connect with our experts</a>
+                  <Link to="/book">
+                      <a className='bg-[#2e4f21] text-white text-xs hover:bg-green-300 hover:text-green-900 rounded-3xl py-3 px-3 transition'>Connect with our experts</a>
+                  </Link>
                 </div>
             </div>
         </div>
