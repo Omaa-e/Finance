@@ -19,7 +19,7 @@ const Footer = () => {
                     </Link>
                 </div>
             </div>
-            <div className=' flex flex-col md:flex-row mt-15 text-xs pt-30'>
+            <div className=' flex flex-col md:flex-row mt-15 text-xs md:pt-30'>
                 <div className='text-white py-5 md:py-10 md:w-1/2'>
                     <p className='font-medium'>Financial Clarity You Can Trust</p>
                     <p className='text-[#d5e4d0]'>Trusted financial guidance for every stage of life and business since 1987</p>
