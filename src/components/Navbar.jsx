@@ -12,9 +12,11 @@ const Navbar = () => {
           
         </div>
         <div className='flex justify-between items-center gap-5 text-white pl-2'>
+          {/* This link takes us to the services page */}
           <Link to="/services" className='text-green-950 text-xs'> Services </Link>
            
             <div className=' bg-[#2e4f21] transition transform ease-in cursor-pointer hover:bg-white text-sm hover:text-green-800 rounded-3xl px-3 py-2'>
+              {/* This link takes us to the Book page */}
               <Link to="/book">
                 <span className='block md:hidden'>Book</span>
                 <p className='hidden md:block text-xs font-medium'>Book an appointment</p>

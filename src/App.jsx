@@ -11,12 +11,14 @@ import Custom from './components/Custom'
 import Believe from './components/Believe'
 import Footer from './components/Footer'
 import Book from './Pages/Book'
-import ServicesPage from './Pages/ServicesPage'
+import ServicesPage from './Pages/ServiceP/ServicesPage'
+
 
 const App = () => {
   return (
       <Router>
         <div className='font-work-sans'>
+          {/* Navbar appears on all pages */}
           <Navbar />
           <Routes>
             {/* Navbar page route */}

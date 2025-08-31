@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/clock.avif'
+import img from '../assets/clock.avif';
 import Footer from '../components/Footer'
 
 const Book = () => {
@@ -8,7 +8,7 @@ const Book = () => {
         <div className='flex flex-col lg:flex-row w-full px-4 my-15 md:h-[60vh]'>
             <div className='md:w-1/2 flex items-center justify-center rounded-4xl bg-[#A0F1BD] h-[80vh] lg:h-[60vh]'>
                 <div className='flex justify-center items-center w-full'>
-                    <img src={img} alt="Custom plan" className='' />
+                    <img src={img} alt="Custom plan" className='flex items-center w-full' />
                 </div>
              </div>
             <div className=' pb-20 md:text-left md:w-1/2 py-10 md:py-0'>
