@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import Back from './Back';
 import Simple from './Simple';
 import Goodbye from './Goodbye';
+import Philosophy from './Philosophy';
 
 const ServicesPage = () => {
   return (
@@ -27,6 +28,7 @@ const ServicesPage = () => {
         </div>
         <Back/>
         <Simple/>
+        <Philosophy/>
         <Goodbye/>
         <Footer/>
     </div>
