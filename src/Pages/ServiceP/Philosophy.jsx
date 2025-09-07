@@ -18,17 +18,17 @@ function Philosophy  () {
   return (
     <div className='w-full h-full px-10 border-t-1 border-[#C7C7C7]'>
       <div className='flex flex-col gap-10 my-10 text-[#2e4f21]'>
-        <div className='space-y-3 text-center'>
-            <p className='text-sm'>Philosophy</p>
-            <h1 className='text-5xl'>We believe:</h1>
+        <div className='space-y-4 my-10 text-center'>
+            <p className='text-sm mt-3  mb-4'>Philosophy</p>
+            <h1 className='text-6xl'>We believe:</h1>
         </div>
         
-        <div className='flex flex-col justify-center gap-8 '>
+        <div className='flex flex-col justify-center gap-5 max-w-[1200px] mx-auto mb-15'>
             {philosophy.map((philosophy,index)=>{
                 return(
-                    <div className='text-center bg-[#E6FBEC] p-10 rounded-3xl space-y-5 flex flex-col  items-center' key={index}>
+                    <div className='text-center bg-[#D2F8DC] px-8 py-15 xl:px-29 rounded-2xl space-y-5 flex flex-col items-center mx-auto'>
                          <p>{philosophy.id}</p>
-                        <p className='text-3xl font-4xl'>{philosophy.text}</p>
+                        <p className='text-2xl lg:text-3xl font-4xl'>{philosophy.text}</p>
                     </div>
                     
                 )
