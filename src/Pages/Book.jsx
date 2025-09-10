@@ -12,7 +12,7 @@ const Book = () => {
                     <img src={img} alt="Custom plan" className='block w-full h-full object-contain   ' />
                 </div>
              </div>
-                <div className='text-left md:py-29 px-8 lg:px-10 xl:px-25 py-10 '>
+                <div className='text-left md:py-29 md:px-8 lg:px-10 xl:px-25 py-10 '>
                     <div className='w-[100%] xl:w-[80%] mb-12'>
                         <h1 className='w-[38%] md:w-[90%] lg:w-[100%] text-3xl md:text-5xl mb-4 lg:text-5xl xl:text-6xl text-[#2e4f21]'>Book an appointment now</h1>
                         <p className=' text-[#2E4F21] mb-6'>Serving individuals and small businesses since 1987</p>
