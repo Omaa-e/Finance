@@ -3,7 +3,7 @@ import Img from '../../assets/calculator.webp'
 
 const Goodbye = () => {
   return (
-        <div className='w-full h-1/2 flex justify-center py-20 px-6 md:py-8 lg:py-0 xl:py-10 px-10 bg-[#F4F7F5]'>
+        <div className='w-full h-1/2 flex justify-center py-20 px-6 md:py-8 lg:py-0 xl:py-10 xl:px-10 bg-[#F4F7F5]'>
             <div className=' w-full flex flex-col-reverse md:flex-row gap-10'>
                 <div className=' flex flex-col justify-center items-center py-10 md:py-0 px-10 md:w-1/2 text-white rounded-3xl'>
                     <div className='space-y-10 text-center'>
