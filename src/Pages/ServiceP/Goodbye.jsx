@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from '../../assets/calculator.webp'
+import Img from '../../assets/Calculator.webp'
 
 const Goodbye = () => {
   return (
