@@ -27,7 +27,7 @@ function Simple () {
         }
     ]
   return (
-    <div className='w-full h-auto py-20 px-20 '>
+    <div className='w-full h-auto py-20 px-5 md:px-20 xl:pl-15  '>
         <div className='flex flex-col gap-10'>
             <div className='text-[#2e4f21]'>
                 <p>How it works</p>
@@ -42,7 +42,7 @@ function Simple () {
                     <div className='flex flex-col rounded-2xl px-6 pt-5 xl:flex-row xl:pb-20  '>
                         <div className='flex flex-col xl:w-[55%] xl:px-20'>
                             <h2 className='text-4xl mb-6'>{simple.title}</h2>
-                            <p className=''>{simple.text}</p>
+                            <p className='text-lg'>{simple.text}</p>
                         </div>
                        
                         <div className='flex pt-16 xl:pt-0'>

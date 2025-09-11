@@ -14,7 +14,7 @@ const Goodbye = () => {
                 </div>
 
                 <div className='flex items-center '>
-                    <div className=' flex items-center justify-center w-full h-175 md:w-95 md:h-100 lg:w-140 lg:h-130 lg:rounded-none xl:rounded-3xl xl:w-160 xl:h-170 bg-[#A0F1BD] rounded-3xl'>
+                    <div className=' flex items-center justify-center w-full h-[5%]sm:w-full h-170 md:w-95 md:h-100 lg:w-140 lg:h-130 lg:rounded-none xl:rounded-3xl xl:w-160 xl:h-170 bg-[#A0F1BD] rounded-3xl'>
                         <img src={Img} alt="Custom plan" className='block w-full h-full object-contain' />
                     </div>
                 </div>

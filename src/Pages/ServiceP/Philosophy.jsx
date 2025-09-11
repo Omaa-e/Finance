@@ -16,7 +16,7 @@ function Philosophy  () {
         }
     ]
   return (
-    <div className='w-full h-full px-10 border-t-1 border-[#C7C7C7]'>
+    <div className='w-full h-full px-5 sm:px-10 border-t-1 border-[#C7C7C7]'>
       <div className='flex flex-col gap-10 my-10 text-[#2e4f21]'>
         <div className='space-y-4 my-10 text-center'>
             <p className='text-sm mt-3  mb-4'>Philosophy</p>
