@@ -46,8 +46,8 @@ function Simple () {
                         </div>
                        
                         <div className='flex pt-16 xl:pt-0'>
-                        <div className='bg-[#F4F7F5] rounded-2xl flex items-end justify-center w-full h-190 xl:w-100 xl:h-85'>
-                            <img src={simple.image} alt="" className='h-[100%] w-auto object-contain self-end' />
+                        <div className='bg-[#F4F7F5] rounded-2xl flex items-end justify-center w-full  xl:w-100 xl:h-95'>
+                            <img src={simple.image} alt="" className=' w-full h-auto object-cover' />
                         </div>
                     </div>
                     </div>

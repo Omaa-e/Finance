@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Service = () => {
     return (
-        <div className='w-full my-15'>
+        <div className='w-full my-30'>
             <div className='flex flex-col mx-auto text-center'>
                 <div>
                     
