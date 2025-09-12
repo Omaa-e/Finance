@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className='w-full h-[80px] flex justify-between items-center bg-[#a0f1bd]'>
-      <div className=' flex justify-between items-center w-full h-full px-7'>
+    <div className='w-full h-[100px] flex justify-between items-center bg-[#a0f1bd]'>
+      <div className=' flex justify-between items-center w-full h-full px-9'>
         <div className=' items-center font-bold '>
            <Link to="/"> 
            <h1 className='text-[#2e4f21] text-lg'>Noble Finances</h1>

@@ -16,7 +16,7 @@ const Custom = () => {
 
                 <div className='md:w-1/2 flex items-center justify-center'>
                     <div className='flex justify-center items-center'>
-                        <img src={Img} alt="Custom plan" className='rounded-3xl' />
+                        <img src={Img} alt="Custom plan" className='rounded-3xl object-contain ' />
                     </div>
                 </div>
             </div>
