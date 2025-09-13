@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-
+// Navbar shows on every page clicked on
 const Navbar = () => {
   return (
-    <div className='w-full h-[100px] flex justify-between items-center bg-[#a0f1bd]'>
-      <div className=' flex justify-between items-center w-full h-full px-9'>
+    <div className='w-full h-[70px] md:h-[82px] lg:h-[100px] flex justify-between items-center bg-[#a0f1bd]'>
+      <div className=' flex justify-between items-center w-full h-full px-4 md:px-9'>
         <div className=' items-center font-bold '>
            <Link to="/"> 
-           <h1 className='text-[#2e4f21] text-lg'>Noble Finances</h1>
+           <h1 className='text-[#2e4f21] text-sm md:text-lg'>Noble Finances</h1>
            </Link>
           
         </div>

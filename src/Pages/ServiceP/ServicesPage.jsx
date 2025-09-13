@@ -10,8 +10,8 @@ import Philosophy from './Philosophy';
 const ServicesPage = () => {
   return (
     <div className='w-full '>
-        <div className='w-full h-full flex'>
-            <div className=' flex flex-col md:flex-row justify-between  w-full my-36 mx-8 '>
+        <div className='w-full lg:h-full flex'>
+            <div className=' flex flex-col md:flex-row justify-between  w-full my-24 lg:my-36 mx-8 '>
                 <div className='order-1 justify-between flex md:order-2 md:w-[60%] md:py-15 md:pl-15 lg:pl-0 lg:py-0'>
                      <div className=''>
                     <img src={bgImg} className='w-full object-contain '/>
