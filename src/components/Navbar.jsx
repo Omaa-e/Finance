@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 // Navbar shows on every page clicked on
 const Navbar = () => {
   return (
-    <div className='w-full h-[70px] md:h-[82px] lg:h-[100px] flex justify-between items-center bg-[#a0f1bd]'>
-      <div className=' flex justify-between items-center w-full h-full px-4 md:px-9'>
+    <div className='w-full h-[70px] md:h-[82px] lg:h-[86px] xl:h-[100px] flex justify-between items-center bg-[#a0f1bd]'>
+      <div className=' flex justify-between items-center w-full h-full px-4 md:px-9 lg:px-6'>
         <div className=' items-center font-bold '>
            <Link to="/"> 
            <h1 className='text-[#2e4f21] text-sm md:text-lg'>Noble Finances</h1>
@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* This link takes us to the services page */}
           <Link to="/services" className='text-green-950 text-xs'> Services </Link>
            
-            <div className=' bg-[#2e4f21] transition transform ease-in cursor-pointer hover:bg-white text-sm hover:text-green-800 rounded-3xl px-3 py-2'>
+            <div className=' bg-[#2e4f21] transition transform ease-in cursor-pointer hover:bg-white text-sm hover:text-green-800 rounded-3xl px-4 py-3'>
               {/* This link takes us to the Book page */}
               <Link to="/book">
                 <span className='block md:hidden'>Book</span>
